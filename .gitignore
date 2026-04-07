@@ -1,0 +1,75 @@
+crud-instantaneo-pro-0.0.1.vsix
+# ── Dependências ─────────────────────────────────────────────
+node_modules/
+vendor/
+
+# ── Ambiente ──────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Extensão VS Code (build) ──────────────────────────────────
+*.vsix
+out/
+dist/
+
+# ── Ambiente local / ferramenta ───────────────────────────────
+.osp/
+
+# ── Arquivos gerados pelo plugin ──────────────────────────────
+crud-gerado/
+generated/
+TestCrud/
+
+# ── Logs ─────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+
+# ── Sistema operacional ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ───────────────────────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# ── PHP ───────────────────────────────────────────────────────
+composer.lock
+*.cache
+
+# ── Banco de dados ────────────────────────────────────────────
+*.sqlite
+*.sqlite3
+
+# ── Testes / coverage ─────────────────────────────────────────
+coverage/
+.nyc_output/
+gumroad_sales_page_crud_pro.html
+
+# ── Monetização / conteúdo pago (não subir em repo público) ───
+extensions/crud-instantaneo-pro/
+api-rest-lite/
+zips/README_PREMIUM.txt
+marketing/hotmart_kiwify_pagina_final.md
+marketing/vsce_release_blocks.md
+files/*
+
+# ── Repositório público: manter apenas extensão Free ───────────
+src/
+docs/
+install/
+marketing/
+zips/
+database.sql
+package.json
+package-lock.json
+.env.example
+CHANGELOG.md
+INSTALLATION_MANUAL.md
+MARKETPLACE_RELEASE_CHECKLIST.md
+thumbnail.svg
+release-pro.sh
+release-all.sh

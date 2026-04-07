@@ -1,0 +1,21 @@
+* text=auto
+
+# Script files
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Source and config
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sql text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.vsix binary
